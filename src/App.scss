@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+//  Register
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgb(235, 217, 184);
+
+  .formWrapper {
+    display: flex;
+    flex-direction: column;
+     gap: 10px;
+
+    span{
+      display: flex;
+       justify-content: center;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      input {
+        border: none;
+        outline: none;
+        padding: 10px;
+      }
+
+      button {
+        width: 40%;
+        border: none;
+        padding: 10px;
+        color: beige;
+        border-radius: 4px;
+        background-color: rgb(148, 59, 7);
+      }
+    }
+  }
+}
+
+/*****************************************************************************************/
+
+// Home 
+.home{
+
+  background-color: rgb(102, 96, 87);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .container{
+    border: 1px solid white;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    overflow : hidden ; 
+    .sidebar{
+      flex: 1;
+      background-color: rgb(2, 43, 29);
+
+    }
+    .chat{
+      flex: 2;
+    }
+  }
+
+}
