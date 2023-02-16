@@ -17,10 +17,11 @@
     background-color: rgb(124, 124, 114);
     padding: 10px;
     height: calc(100% - 150px);
-overflow:scroll;
+    overflow:auto;
     .message{
      display: flex;
      gap: 10px;
+     margin-bottom: 20px;
 
      .messageInfo{
       display: flex;
@@ -36,18 +37,48 @@ overflow:scroll;
         }
      }
      .messageContent{
-     width: 50% ;
-     
+     display: flex;
+     max-width: 80%;
+     flex-direction: column;
+     gap: 12px;
+     img{
+      width: 35%;
+      border: 2px solid rgb(61, 58, 8);
+      border-radius: 0px 12px 12px 12px;
+     }
+     p{
+      background-color: rgb(61, 58, 8);
+      color: whitesmoke;
+      padding: 10px;
+      border-radius: 0px 12px 12px 12px;
+      max-width: max-content;
+     }
      
      }
 
-     
+     &.owner{
+      flex-direction: row-reverse;
+      .messageContent{
+        align-items: flex-end;
+
+        img{
+          border: 2px solid rgb(3, 35, 56);
+          border-radius: 12px 0px 12px 12px;
+         }
+        p{
+          border-radius: 12px 0px 12px 12px;
+          background-color: rgb(3, 35, 56);
+          
+        }
+      }
+     }
     }
   }
 
 
 
   .input {
+    display: flex;
     height: 50px;
     padding: 10px;
     background-color: aliceblue;
