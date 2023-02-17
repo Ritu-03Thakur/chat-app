@@ -2,7 +2,7 @@
   flex: 2;
   .chatInfo {
     display: flex;
-    background-color: rgb(33, 58, 80);
+    background-color: #d7ccc8;
     height: 50px;
     justify-content: space-between;
     align-items: center;
@@ -14,7 +14,7 @@
     }
   }
   .messages {
-    background-color: rgb(124, 124, 114);
+   
     padding: 10px;
     height: calc(100% - 150px);
     overflow:auto;
@@ -43,11 +43,11 @@
      gap: 12px;
      img{
       width: 35%;
-      border: 2px solid rgb(61, 58, 8);
+      border: 2px solid #4c4207;
       border-radius: 0px 12px 12px 12px;
      }
      p{
-      background-color: rgb(61, 58, 8);
+      background-color: #4c4207;
       color: whitesmoke;
       padding: 10px;
       border-radius: 0px 12px 12px 12px;
@@ -62,12 +62,12 @@
         align-items: flex-end;
 
         img{
-          border: 2px solid rgb(3, 35, 56);
+          border: 2px solid #4e342e;
           border-radius: 12px 0px 12px 12px;
          }
         p{
           border-radius: 12px 0px 12px 12px;
-          background-color: rgb(3, 35, 56);
+          background-color: #4e342e;
           
         }
       }
@@ -100,7 +100,7 @@
     cursor: pointer;
 
     button{
-        background-color: rgb(13, 31, 25);
+        background-color: rgb(138, 115, 11);
         color: aliceblue;
         border-radius: 3px;
         padding: 5px;

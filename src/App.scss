@@ -52,7 +52,7 @@
 .home{
 
   background-color: rgb(102, 96, 87);
-  height: 100vh;
+ height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,12 +64,13 @@
     overflow : hidden ; 
     .sidebar{
       flex: 1;
-      background-color: rgb(2, 43, 29);
+      background-color: #d7ccc8;
 
     }
     .chat{
       flex: 2;
+      background-color: #bfb6c1;
     }
   }
-
+  
 }
